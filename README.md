@@ -79,7 +79,7 @@ Follow this link to know about above terminologies: https://docs.paloaltonetwork
   standardized units called containers that have everything the software needs to run including libraries, system tools, code, and runtime
   (for example, dependencies). Using Docker, you can quickly deploy and scale applications into any environment and know your code will run.
   
-  A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing   environment to another. For example, A Docker container image is a lightweight, standalone, executable package of software that includes everything         needed to run an application: code, runtime, system tools, system libraries and settings.
+  **A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing   environment to another**. For example, A Docker container image is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings.
   Container images become containers at runtime.
   (*Here image refers to a computer file containing code, i.e. structure and contents of all installed tools, softwares and dependencies packed as             container*)
   
