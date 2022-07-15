@@ -6,7 +6,8 @@
   Check out this Youtube video for a general introduction on AWS: https://www.youtube.com/watch?v=wWeyzYzd17o
 
 ## AWS terminologies
-  - EC2 (Machines which computes)
+   - EC2 (Machines which computes)
+  
   - S3 (Simple Storage Service)
   - AMI (Amazon Machine Image)
   - EBL (Elastic Load Balance)
@@ -66,7 +67,7 @@ Follow this link to know about above terminologies: https://docs.paloaltonetwork
 ## Fargate 
   It provides serverless option. It helps run container on EC2 machines. User do not have to worry about selecting the specifications of the Machine. ECS and fargate does that itself.
  
- ![Screenshot from 2022-07-15 12-34-44(1)(1)](https://user-images.githubusercontent.com/53552871/179169593-bb9fbf16-0048-4948-9546-ef31ce9e4499.png)
+![Screenshot from 2022-07-15 12-34-44(1)(1)](https://user-images.githubusercontent.com/53552871/179169593-bb9fbf16-0048-4948-9546-ef31ce9e4499.png)
 
  Follow this link to know about ECS and Fargate, and their differences: https://cloudonaut.io/ecs-vs-fargate-whats-the-difference 
  Check out this Youtube video for better explanation on ECS, EC2 and Fargate: https://www.youtube.com/watch?v=DVrGXjjkpig
@@ -77,7 +78,11 @@ Follow this link to know about above terminologies: https://docs.paloaltonetwork
   Docker is a software platform that allows you to build, test, and deploy applications quickly. Docker packages software into
   standardized units called containers that have everything the software needs to run including libraries, system tools, code, and runtime
   (for example, dependencies). Using Docker, you can quickly deploy and scale applications into any environment and know your code will run.
-
+  
+  A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing   environment to another. For example, A Docker container image is a lightweight, standalone, executable package of software that includes everything         needed to run an application: code, runtime, system tools, system libraries and settings.
+  Container images become containers at runtime.
+  (*Here image refers to a computer file containing code, i.e. structure and contents of all installed tools, softwares and dependencies packed as             container*)
+  
 ## How docker works and why it's better than Virtual machines(VMs)?
 Check out this Youtube video for understanding docker and VMs: https://www.youtube.com/watch?v=u-YWtdbpEhQ&t=3s
 
